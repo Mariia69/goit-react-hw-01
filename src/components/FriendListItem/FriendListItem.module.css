@@ -1,23 +1,22 @@
-.img {
-  margin: 0 auto;
-}
-
-.name {
-  color: #000;
-  margin-top: 8px;
-  font-size: 24px;
-  text-align: center;
-}
-
-.online {
-  font-size: 20px;
-  color: #000;
-}
-
 .isOnline {
   color: green;
 }
 
 .isOffline {
-  color: tomato;
+  color: red;
+}
+
+.list {
+  display: flex;
+}
+
+.item {
+  width: 100px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.nameClass {
+  font-size: 24px;
+  margin-top: 10px;
 }

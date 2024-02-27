@@ -1,16 +1,25 @@
-.list {
+.container {
   margin: 0 auto;
-  width: 520px;
-  margin-top: 48px;
+  margin-top: 20px;
+}
+
+.list {
   display: flex;
+  margin: 0 auto;
   justify-content: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .item {
-  background-color: #fff;
-  width: 96px;
-  padding: 16px 8px;
-  border: 2px solid #000;
-  border-radius: 8px;
+  /* display: flex; */
+  width: 100px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+img {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 64px;
 }
